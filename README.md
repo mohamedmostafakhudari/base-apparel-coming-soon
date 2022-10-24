@@ -23,7 +23,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-using-tailwind-EodwqaAlVW)
 - Live Site URL: [Live](https://mohamedmostafakhudari.github.io/base-apparel-coming-soon/public/)
 
 ## My process
