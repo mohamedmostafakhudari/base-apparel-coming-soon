@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="text-[16px] font-josefinSans min-h-screen">
+  <main class="min-h-screen h-screen">
+    <div class="container mx-auto grid grid-cols-1 h-full md:grid-cols-2 md:max-w-none lg:gap-x-48">
+      <!-- left -->
+      <div id='mainContent' class="relative md:max-w-md">
+        <!-- background pattern -->
+        <div id="bgPattern" class="block absolute inset-0 -z-10 left-0 -right-[23rem] hidden md:block"></div>
+        <!-- logo -->
+        <div class="px-10">
+          <img src="./images/logo.svg" alt=" logo" class="py-10">
+        </div>
+        <!-- mobile hero image -->
+        <img src="./images/hero-mobile.jpg" alt="hero image" class="w-full object-cover object-center md:hidden">
+        <!-- hero text -->
+        <div class="text-center px-10 md:text-left">
+          <p class="uppercase text-neutral-veryDarkBlue font-semibold text-4xl tracking-[10px] mt-14"><span class="text-primary-desaturatedRed font-light">we're</span><br>coming<br>soon</p>
+          <p class="text-primary-desaturatedRed py-5 text-sm md:max-w-[40ch]">Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        </div>
+        <!-- form -->
+        <form action="/" class="relative px-10 flex mt-4 group" novalidate>
+          <div class="w-full relative">
+          <input type="email" id="email" name="email" class="border rounded-full p-3 block -mr-8 pl-6 w-full border-primary-desaturatedRed/50 caret-primary-desaturatedRed text-inherit placeholder:text-primary-desaturatedRed placeholder:text-sm placeholder:font-light focus:outline-none group-invalid:border-primary-softRed" placeholder="Email Address">
+          <!-- error msg -->
+          <span class="error absolute -bottom-5 left-7 text-primary-softRed text-[11px] md:text-xs"></span>
+          <!-- error icon -->
+          <img src="./images/icon-error.svg" alt="error" class="absolute top-1/2 -translate-y-1/2 right-14 hidden group-invalid:block">
+          </div>
+          <!-- submit btn -->
+          <button type='submit' id="submit" class='w-16 flex items-center justify-center rounded-full -ml-10 cursor-pointer shadow-xl relative shadow-primary-desaturatedRed/50 linear duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-primary-desaturatedRed md:w-24' style='background-image: var(--gradTwo);'>
+            <img src="./images/icon-arrow.svg" alt="arrow">
+            <!-- hover state -->
+            <div class="absolute inset-0 rounded-full opacity-0 ease-in-out duration-300" style="background-image: var(--gradOne);"></div>
+          </button>
+        </form>
+      </div>
+      <!-- right -->
+      <div class="-order-1 md:order-1 hidden md:block">
+        <img src="./images/hero-desktop.jpg" alt="hero image" class="object-cover object-top h-full md:w-full md:max-h-screen">
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Mohamed Mostafa</a>.
+    </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
