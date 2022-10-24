@@ -15,7 +15,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 ### Screenshot
 #### Desktop
 
-![](./public/images/Screenshot%202022-10-24%20at%2023-31-23%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page.png)
+![image](https://user-images.githubusercontent.com/47444914/197636270-1297802e-5d0b-4869-b3e2-a6af523f1c6d.png)
 
 #### Mobile
 
@@ -23,8 +23,8 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Live](https://mohamedmostafakhudari.github.io/base-apparel-coming-soon/public/)
 
 ## My process
 
